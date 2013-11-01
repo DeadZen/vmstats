@@ -11,6 +11,10 @@
     statsderl
   ]},
   {mod, {vmstats, []}},
+  {env, [
+    {prefix_key, ""},
+    {base_key, "vmstats"}
+  ]},
   {applications, [statsderl]},
   {modules, [
       vmstats,
